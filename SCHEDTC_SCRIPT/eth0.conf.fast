@@ -1,0 +1,8 @@
+[RULE_00001]
+	ports=SELF:80,443:dest
+	enabled=1
+	protocol=1
+	minrate=100
+	maxrate=100
+	source=all
+	ip_direction=0
